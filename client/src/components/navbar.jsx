@@ -5,8 +5,8 @@ function Navbar() {
   return (
     <nav className="navbar">
       <a href="https://github.com/scarlettatn">Scarlett Ah-Thon</a>
-      <a href="https://github.com/scarlettatn">Projects</a>
-      <a href="https://github.com/scarlettatn">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
       <a id="navbar-contact" href="https://github.com/scarlettatn">Contact Me</a>
     </nav>
   );

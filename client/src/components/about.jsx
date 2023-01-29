@@ -13,12 +13,13 @@ function About() {
         and worked in various countries in multicultural
         teams (France, USA, UK, Luxembourg and Portugal).
       </p>
-        <div className="button-contact">
-          <a href="#contact">Work with me
-          </a>
-        </div>
-        <div className="button-projects">
-          See my past projects
+        <div container>
+          <div className="button-contact">
+            <a href="#contact">Work with me</a>
+          </div>
+          <div className="button-projects">
+            <a href="#projects">See my past projects</a>
+          </div>
         </div>
     </div>
   );
