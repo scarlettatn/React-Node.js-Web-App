@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios'
 
+import Contact from './components/contact'
+
 class App extends Component {
   state = {
     response: {}
@@ -18,6 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Contact></Contact>
         <h1>Here is a new feature</h1>
         <h1>{this.state.response.body}</h1>
       </div>
