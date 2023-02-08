@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  position: absolute;
+  background: lightgrey;
+}
+.container-home {
+  position: relative;
+  width: 98%;
+  background: rgba(255,255,255, 0.9);
+  margin: 0 auto;
+  border-radius: 10px;
+}

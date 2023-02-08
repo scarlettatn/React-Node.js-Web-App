@@ -9,3 +9,13 @@ p {
 a {
   text-decoration: none;
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
