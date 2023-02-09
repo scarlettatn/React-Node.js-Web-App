@@ -1,12 +1,20 @@
 .skill-container {
   display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 50px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 60%;
+  column-gap: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .skill {
+  background-color: rgba(151,78,222, 0.1);
+  color: whi;
+  border-radius: 1px;
+  height: 35px;
+  width: 50%;
+  font-weight: bold;
   text-align: left;
-  border: solid 1px;
-  padding-left: 5%;
+  padding: 10px 0px 10px 10px;
 }

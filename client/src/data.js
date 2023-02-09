@@ -1,8 +1,7 @@
 export const skills = [
   "Ruby on rails",
-  "Javascript",
-  "React",
-  "Node.js",
+  "JavaScript",
+  "React/Node.js",
   "HTML",
   "CSS",
   "SQL",

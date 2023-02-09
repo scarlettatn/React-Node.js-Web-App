@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/scarlettatn/React-Node.js-Web-App#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "body-parser": "^1.20.1",
     "concurrently": "^7.6.0",
     "cors": "^2.8.5",
