@@ -39,12 +39,12 @@
 
 .App {
   position: absolute;
-  background: lightgrey;
 }
 .container-home {
   position: relative;
   width: 98%;
-  background: rgba(255,255,255, 0.9);
+  /* background: rgba(255,255,255, 0.9); */
+  background: linear-gradient(90deg, rgba(255,242,255,1) 0%, rgba(228,250,255,1) 100%);
   margin: 0 auto;
   border-radius: 10px;
 }
