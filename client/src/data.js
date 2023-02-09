@@ -12,16 +12,14 @@ export const projects = [
     title: "JuniorHub",
     subtitle: "Help junior developers to find their first job",
     description: "Features landing page, dashboard, bookmark",
-    image:"./project-1.gif",
-// GIF to be added //
+    image:"./project_1.gif",
     link: "https://www.juniorhub.me/",
   },
   {
     title: "Rent A Pet",
     subtitle: "Airbnb clone for pets",
     description: "Features landing page, booking/calendar option",
-    image:"./project-1.gif",
-// GIF to be added //
+    image:"./project_2.gif",
     link: "",
   },
   {
