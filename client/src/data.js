@@ -14,6 +14,7 @@ export const projects = [
     description: "Features landing page, dashboard, bookmark",
     image:"./project_1.gif",
     link: "https://www.juniorhub.me/",
+    live: true,
   },
   {
     title: "Rent A Pet",
@@ -21,6 +22,7 @@ export const projects = [
     description: "Features landing page, booking/calendar option",
     image:"./project_2.gif",
     link: "",
+    live: true,
   },
   {
     title: "Delice Kitchen",
@@ -29,13 +31,15 @@ export const projects = [
     image:"./project-1.gif",
 // GIF to be added //
     link: "",
+    live: false,
   },
   {
-    title: "Lisbon Guide",
-    subtitle: "Guide to have a great time in Lisbon",
-    description: "Insert description",
+    title: "Lisbon Guide for Expats",
+    subtitle: "All you need to know about Lisbon",
+    description: "Admin, food recommendations, what to do, tips before and after you move",
     image:"./project-1.gif",
 // GIF to be added //
     link: "",
+    live: false,
   },
 ]

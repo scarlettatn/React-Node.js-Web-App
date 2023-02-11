@@ -6,14 +6,13 @@ function About() {
     <div className="about">
       <h1>Scarlett Ah-Thon</h1>
       <p>
-        Junior full stack developer with a background in
+        Full stack developer with a background in
         finance. Recently graduated from Le Wagon
         intensive full stack web development bootcamp.
         I value an international environment having studied
         and worked in various countries in multicultural
         teams (France, USA, UK, Luxembourg and Portugal).
       </p>
-      <p>Read more</p>
         <div className="container">
           <div className="button-contact">
             <a href="#contact">Work with me</a>

@@ -25,3 +25,13 @@
 h1 {
   text-align: center;
 }
+
+/* Badge Google icon style */
+.material-symbols-outlined {
+  color: rgba(151,78,222, 0.2);
+  font-variation-settings:
+  'FILL' 10,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

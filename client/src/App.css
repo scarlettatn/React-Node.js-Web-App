@@ -39,6 +39,7 @@
 
 .App {
   position: absolute;
+  font-family: 'Gantari', 'sans-serif';
 }
 .container-home {
   position: relative;
@@ -47,4 +48,5 @@
   background: linear-gradient(90deg, rgba(255,242,255,1) 0%, rgba(228,250,255,1) 100%);
   margin: 0 auto;
   border-radius: 10px;
+  padding: 20px;
 }

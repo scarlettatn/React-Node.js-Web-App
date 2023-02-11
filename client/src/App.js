@@ -24,8 +24,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="container-home">
           <Navbar></Navbar>
+        <div className="container-home">
           <About></About>
           <Projects></Projects>
           <Skills></Skills>
