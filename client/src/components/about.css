@@ -1,21 +1,30 @@
-h1 {
+.about h1 {
   text-align: left;
 }
 
 p {
   text-align: justify;
+  width: 60%;
 }
 
 a {
   text-decoration: none;
 }
 
-.about {
+.about-info {
+  display: flex;
+  align-items: center;
+}
+/* .about {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .container {
   display: flex;
   justify-content: flex-start;
+}
+
+img {
+  height: 350px;
 }

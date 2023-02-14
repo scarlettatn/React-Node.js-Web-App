@@ -5,3 +5,9 @@
 .project-img {
   height: 200px;
 }
+
+.svg-inline--fa.fa-code {
+  font-size: 25px;
+  margin-top: 20px;
+  color: rgba(151,78,222, 0.3);
+}

@@ -8,24 +8,23 @@ import { projects } from '../data';
 
 function Projects() {
   return (
-      <div className="projects"><FontAwesomeIcon icon={faCode} />
-        <h1>projects.</h1>
-          <p>Group and personal projects  </p>
-            <div>{projects.map((project) => (
-              <div>{project.live ? (
-                <a href={project.link}>
-                  <div>
-                    <img className="project-img" alt="project" src={project.image} />
-                  </div>
-                </a>
-              ) : (
-                <div></div>
-              )}
-            </div>
-          ))}
+    <div className="projects"><FontAwesomeIcon icon={faCode} />
+      <h1>projects.</h1>
+        <div>{projects.map((project) => (
+          <div>{project.live ? (
+            <a href={project.link}>
+              <div>
+                <img className="project-img" alt="project" src={project.image} />
+              </div>
+            </a>
+          ) : (
+            <div></div>
+          )}
         </div>
+        ))}
       </div>
-    );
-  }
+    </div>
+  );
+}
 
 export default Projects;

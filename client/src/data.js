@@ -1,10 +1,12 @@
 export const skills = [
-  "Ruby on rails",
+  "Ruby on Rails",
   "JavaScript",
   "React/Node.js",
   "HTML",
-  "CSS",
+  "CSS/SCSS",
   "SQL",
+  "Git",
+  "Ubuntu"
 ];
 
 export const projects = [

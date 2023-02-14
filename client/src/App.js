@@ -30,8 +30,8 @@ class App extends Component {
           <Projects></Projects>
           <Skills></Skills>
           <Contact></Contact>
-          <h1>Here is a new feature</h1>
-          <h1>{this.state.response.body}</h1>
+          {/* <h1>Here is a new feature</h1>
+          <h1>{this.state.response.body}</h1> */}
         </div>
       </div>
     );
