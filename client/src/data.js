@@ -6,7 +6,9 @@ export const skills = [
   "CSS/SCSS",
   "SQL",
   "Git",
-  "Ubuntu"
+  "Github",
+  "Ubuntu",
+  "npm/yarn",
 ];
 
 export const projects = [
