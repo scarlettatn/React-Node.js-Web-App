@@ -1,0 +1,38 @@
+.about h1 {
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  height: 250px;
+}
+/* .about {
+  display: flex;
+  flex-direction: column;
+} */
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+img {
+  height: 350px;
+}
+
+.about-container-text{
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  justify-content: flex-end;
+}

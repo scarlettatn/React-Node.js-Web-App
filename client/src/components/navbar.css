@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  padding: 20px 0px 0px 10px;
+  height: 45px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: darkgrey;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#navbar-home {
+  color: #1c1c1c;
+}
+
+#navbar-contact {
+  background-color: rgba(151,78,222, 0.1);
+  color: #974EDE;
+  border-radius: 5px;
+  height: 25px;
+  width: 90px;
+}

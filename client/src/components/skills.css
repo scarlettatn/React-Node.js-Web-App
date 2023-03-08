@@ -1,0 +1,52 @@
+.skill-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skill-card {
+  flex-basis: calc(50% - 10px);
+  padding: 15px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .skill-card {
+    flex-basis: 100%;
+  }
+}
+
+/* Skills Title */
+.svg-inline--fa.fa-gem {
+  font-size: 25px;
+  margin-top: 20px;
+  color: rgba(151,78,222, 0.3);
+}
+
+
+h1 {
+  margin-top: 0px;
+  text-align: center;
+}
+
+/* Badge Google icon style */
+.material-symbols-outlined {
+  /* To align icon and text on the same line: */
+  float: left;
+
+  color: rgba(151,78,222, 0.2);
+  font-variation-settings:
+  'FILL' 10,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
