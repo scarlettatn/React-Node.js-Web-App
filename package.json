@@ -4,7 +4,7 @@
   "description": "React web app with a Node.js backend",
   "main": "server.js",
   "engines":{
-    "node": "16.5.1"
+    "node": "16.15.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
