@@ -30,7 +30,7 @@ img {
   height: 350px;
 }
 
-.about-container-text{
+.about-container-gittext{
   display: flex;
   height: 250px;
   flex-direction: column;
