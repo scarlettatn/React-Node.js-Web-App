@@ -21,10 +21,10 @@ export const projects = [
     live: true,
   },
   {
-    title: "Rent A Pet",
-    subtitle: "Airbnb clone for pets",
+    title: "DeskStay",
+    subtitle: "Airbnb clone for desk spaces",
     description: "Features landing page, booking/calendar option",
-    image:"./project_2.gif",
+    image:"./project_3.gif",
     link: "",
     live: true,
   },
