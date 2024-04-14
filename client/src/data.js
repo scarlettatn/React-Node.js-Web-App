@@ -23,7 +23,7 @@ export const projects = [
   {
     title: "DeskStay",
     subtitle: "Airbnb clone for desk spaces",
-    description: "Features landing page, booking/calendar option",
+    description: "DeskStay is an Airbnb clone, designed for a group project during the Le Wagon bootcamp. It was initially called Rent my pet. It features a landing page, a dashboard, index page, a booking/calendar option",
     image:"./project_3.gif",
     link: "",
     live: true,

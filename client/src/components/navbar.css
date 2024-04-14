@@ -2,6 +2,7 @@
   display: flex;
   padding: 20px 0px 0px 10px;
   height: 45px;
+  gap: 40px;
 }
 
 .navbar a {
@@ -15,10 +16,12 @@
   color: #1c1c1c;
 }
 
-#navbar-contact {
+
+
+/* #navbar-contact {
   background-color: rgba(151,78,222, 0.1);
   color: #974EDE;
   border-radius: 5px;
   height: 25px;
   width: 90px;
-}
+} */

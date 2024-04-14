@@ -11,3 +11,9 @@
   margin-top: 20px;
   color: rgba(151,78,222, 0.3);
 }
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}

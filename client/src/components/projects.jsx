@@ -10,11 +10,14 @@ function Projects() {
   return (
     <div className="projects"><FontAwesomeIcon icon={faCode} />
       <h1>projects.</h1>
-        <div>{projects.map((project) => (
+        <div className="projects-container">{projects.map((project) => (
           <div>{project.live ? (
             <a href={project.link}>
               <div>
                 <img className="project-img" alt="project" src={project.image} />
+              </div>
+              <div>
+                <div className="project-description"> {project.description} </div>
               </div>
             </a>
           ) : (
