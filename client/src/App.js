@@ -5,6 +5,9 @@ import axios from 'axios'
 import { animateScroll } from 'react-scroll';
 import { useState, useEffect } from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
+
 import Navbar from './components/navbar'
 import About from './components/about'
 import Projects from './components/projects'
@@ -39,6 +42,7 @@ class App extends Component {
   }
 }
 
+/*Scroll to top button - hidding effect at the top*/
 const ScrollToTopButton = () => {
   const [showButton, setShowButton] = useState(false);
 
@@ -64,7 +68,9 @@ const ScrollToTopButton = () => {
 
   return (
     showButton && (
-      <button onClick={scrollToTop} style={{ position: 'fixed', bottom: '20px', right: '20px' }}>Scroll to Top</button>
+      <div onClick={scrollToTop} style={{ position: 'fixed', bottom: '20px', right: '20px', backgroundColor: '#fff', border: 'none', borderRadius: '50%', zIndex: '999' }}>
+        <FontAwesomeIcon icon={faCircleArrowUp}  style={{ color: '#333', fontSize: '24px' }} />
+      </div>
     )
   );
 };
