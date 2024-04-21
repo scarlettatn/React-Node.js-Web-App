@@ -9,7 +9,7 @@ import { faGem } from '@fortawesome/free-regular-svg-icons';
 
 function Skills() {
   return (
-    <div>
+    <div id="skills">
       <FontAwesomeIcon icon={faGem} />
       <h1>skills.</h1>
       <div>

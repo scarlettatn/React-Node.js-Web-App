@@ -8,7 +8,7 @@ import { projects } from '../data';
 
 function Projects() {
   return (
-    <div className="projects"><FontAwesomeIcon icon={faCode} />
+    <div id="project" className="projects"><FontAwesomeIcon icon={faCode} />
       <h1>projects.</h1>
         <div className="projects-container">{projects.map((project) => (
           <div>{project.live ? (
