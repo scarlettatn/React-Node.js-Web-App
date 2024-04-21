@@ -11,10 +11,6 @@ import Projects from './components/projects'
 import Skills from './components/skills'
 import Contact from './components/contact'
 
-const scrollToTop = () => {
-  animateScroll.scrollToTop();
-};
-
 class App extends Component {
   state = {
     response: {}
@@ -36,8 +32,6 @@ class App extends Component {
           <Projects></Projects>
           <Skills></Skills>
           <Contact></Contact>
-          {/* <h1>Here is a new feature</h1>
-          <h1>{this.state.response.body}</h1> */}
           <ScrollToTopButton />
         </div>
       </div>
