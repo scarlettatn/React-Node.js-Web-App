@@ -9,6 +9,7 @@ export const skills = [
   "Github",
   "Ubuntu",
   "npm/yarn",
+  "VScode"
 ];
 
 export const projects = [

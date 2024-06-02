@@ -6,9 +6,9 @@ function About() {
     <div className="about">
       <div className="about-container">
         <div className="about-container-text">
-          <h1>meet scarlett</h1>
+          <h1>meet me</h1>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Hello, I'm Scarlett and I come from a background in Finance. Recently, I decided to embark on an new career path as a full-stack developer.
           </p>
         </div>
         <div className="about-container-img"><img alt="illustration" src="./illu1.png"></img></div>

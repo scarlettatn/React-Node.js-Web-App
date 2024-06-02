@@ -9,6 +9,8 @@ function Navbar() {
       <a id="navbar-home" href="https://github.com/scarlettatn"><strong>Home</strong></a>
       <Link to="projects" smooth duration={500}>Portfolio</Link>
       <Link to="skills" smooth duration={500}>Skills</Link>
+      <Link to="project1" smooth duration={500}>Project 1</Link>
+
       <a id="navbar-contact" href="https://github.com/scarlettatn">Contact</a>
     </nav>
   );
