@@ -18,6 +18,14 @@
   gap: 30px;
 }
 
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr; /* Switch to single column */
+    gap: 20px; /* Adjust gap if necessary */
+  }
+}
+
 .project-description {
   font-size: 14px;
   color: black;
