@@ -16,7 +16,7 @@ export const projects = [
   {
     title: "JuniorHub",
     subtitle: "Help junior developers to find their first job",
-    description: "Features landing page, dashboard, bookmark",
+    description: "JuniorHub is a webapp designed as part of the final group project during the bootcamp. It is a platform to help junior web developers to find their first work experience, get access to information on a blog and network",
     image:"./project_1.gif",
     link: "https://www.juniorhub.me/",
     live: true,

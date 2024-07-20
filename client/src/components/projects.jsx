@@ -16,6 +16,8 @@ function Projects() {
               <div>
                 <img className="project-img" alt="project" src={project.image} />
               </div>
+              <div className="project-title"> {project.title}
+              </div>
               <div>
                 <div className="project-description"> {project.description} </div>
               </div>
