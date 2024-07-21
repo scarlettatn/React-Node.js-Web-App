@@ -61,7 +61,7 @@
 
 /* Media Queries */
 @media (max-width: 768px) {
-  .container-home {
+  .app {
     padding: 10px;
   }
 }

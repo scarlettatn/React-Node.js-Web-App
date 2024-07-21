@@ -11,7 +11,6 @@ function About() {
           Hello, I'm Scarlett and I come from a background in Finance. Recently, I decided to embark on an new career path as a full-stack developer.
           </p>
         </div>
-        <div className="about-container-img"><img alt="illustration" src="./illu1.png"></img></div>
         </div>
       <div className="container">
         <a className="button-contact" href="#contact">Work with me</a>
