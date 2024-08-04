@@ -9,7 +9,7 @@ import { faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 import Navbar from './components/navbar'
 import About from './components/about'
-import Projects from './components/projects'
+import ProjectsOverview from './components/projectsoverview'
 import Skills from './components/skills'
 import Contact from './components/contact'
 
@@ -33,7 +33,7 @@ class App extends Component {
           <Navbar></Navbar>
         <div className="container-home">
           <About></About>
-          <Projects></Projects>
+          <ProjectsOverview></ProjectsOverview>
           <Skills></Skills>
           <Contact></Contact>
           <ScrollToTopButton />
@@ -42,6 +42,9 @@ class App extends Component {
     );
   }
 }
+
+/* <ScrollToTopButton /> */
+
 
 /*Scroll to top button - hidding effect at the top*/
 const ScrollToTopButton = () => {

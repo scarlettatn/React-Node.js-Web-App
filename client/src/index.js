@@ -1,15 +1,45 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Projects from './pages/projects';
+import Project from './pages/project';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+
+// Define routes
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <div>404 not found</div>,
+  },
+  {
+    path: "/projects",
+    element: <Projects />,
+  },
+  {
+    path: "/projects/:projectId",
+    element: <Project />,
+  },
+]);
+
+// Render the application
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
+
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
 
 
 // If you want to start measuring performance in your app, pass a function
@@ -19,4 +49,4 @@ reportWebVitals();
 
 
 
-//import ReactDOM from 'react-dom/client';
+//changed import ReactDOM from 'react-dom' to import ReactDOM from 'react-dom/client otherwise not supported';
