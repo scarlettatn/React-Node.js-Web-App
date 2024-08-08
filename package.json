@@ -27,8 +27,6 @@
   },
   "homepage": "https://github.com/scarlettatn/React-Node.js-Web-App#readme",
   "dependencies": {
-    "@babel/plugin-syntax-flow": "^7.24.7",
-    "@babel/plugin-transform-react-jsx": "^7.25.2",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
@@ -39,8 +37,6 @@
     "express": "^4.18.2",
     "gh-pages": "^6.1.0",
     "nodemon": "^3.0.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
     "react-scroll": "^1.9.0"
   },
@@ -49,6 +45,6 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^5.0.1"
   }
 }
