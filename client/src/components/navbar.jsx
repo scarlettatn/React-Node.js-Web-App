@@ -1,30 +1,17 @@
 import React from 'react';
 import './navbar.css';
-import { Link } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 // import { Link, animateScroll as scroll } from "react-scroll";
 
+// in Skills and Contact, div need to have id=skills and id=navbar to work with scroll
 function Navbar() {
   return (
     <nav className="navbar">
-      <a id="navbar-home" href="https://github.com/scarlettatn"><strong>Home</strong></a>
-      <Link to="projects" smooth duration={500}>Portfolio</Link>
-      <Link to="skills" smooth duration={500}>Skills</Link>
-      <Link to="project1" smooth duration={500}>Project 1</Link>
-
-      <a id="navbar-contact" href="https://github.com/scarlettatn">Contact</a>
+      <a id="navbar-home" href="/"><strong>Home</strong></a>
+      <RouterLink to="/projects">Portfolio</RouterLink>
     </nav>
   );
 }
 
 export default Navbar;
-
-// function Navbar() {
-//   return (
-//     <nav className="navbar">
-//       <a id="navbar-home" href="https://github.com/scarlettatn"><strong>Home</strong></a>
-//       <a href="#projects">Portfolio</a>
-//       <a href="#skills">Skills</a>
-//       <a id="navbar-contact" href="https://github.com/scarlettatn">Contact</a>
-//     </nav>
-//   );
-// }

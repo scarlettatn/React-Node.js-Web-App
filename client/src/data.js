@@ -1,3 +1,5 @@
+import { LogTimings } from "concurrently";
+
 export const skills = [
 {
   id: 1,
@@ -51,6 +53,8 @@ export const projects = [
     title: "JuniorHub",
     subtitle: "Help junior developers to find their first job",
     description: "JuniorHub is a webapp designed as part of the final group project during the bootcamp. It is a platform to help junior web developers to find their first work experience, get access to information on a blog and network",
+    // features: "Authentification Login", "Dashboard", "Booking Calendar",
+    tools: "figma",
     image:"./project_1.gif",
     link: "https://www.juniorhub.me/",
     live: true,

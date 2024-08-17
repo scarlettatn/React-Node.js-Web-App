@@ -25,9 +25,9 @@ function ProjectsOverview() {
           ) : (
             <div></div>
           )}
-        </div>
+          </div>
         ))}
-      </div>
+        </div>
     </div>
   );
 }

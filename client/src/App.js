@@ -8,11 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 import Navbar from './components/navbar'
-import About from './components/about'
-import ProjectsOverview from './components/projectsoverview'
-import Skills from './components/skills'
-import Contact from './components/contact'
-
+import { Outlet } from 'react-router-dom';
 
 
 class App extends Component {
@@ -30,14 +26,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <Navbar></Navbar>
-        <div className="container-home">
-          <About></About>
-          <ProjectsOverview></ProjectsOverview>
-          <Skills></Skills>
-          <Contact></Contact>
-          <ScrollToTopButton />
-        </div>
+        <Navbar></Navbar>
+        <Outlet></Outlet> {/* Child routes will render here */}
+        <ScrollToTopButton></ScrollToTopButton>
       </div>
     );
   }

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Home from './components/home';
 import Projects from './pages/projects';
 import Project from './pages/project';
 import reportWebVitals from './reportWebVitals';
@@ -15,14 +16,20 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     errorElement: <div>404 not found</div>,
-  },
-  {
-    path: "/projects",
-    element: <Projects />,
-  },
-  {
-    path: "/projects/:projectId",
-    element: <Project />,
+    children: [
+      {
+        path: "/",
+        element: <Home/>,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
+      },
+      {
+        path: "/projects/:projectId",
+        element: <Project />,
+      },
+    ],
   },
 ]);
 

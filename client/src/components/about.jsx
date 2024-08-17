@@ -1,5 +1,7 @@
 import React from 'react';
 import './about.css';
+import { Link as RouterLink } from 'react-router-dom';
+
 
 function About() {
   return (
@@ -13,8 +15,8 @@ function About() {
         </div>
         </div>
       <div className="container">
-        <a className="button-contact" href="#contact">Work with me</a>
-        <a className="button-projects" href="#projects">See my projects</a>
+        <a className="button-skills" href="#skills">My skills</a>
+        <RouterLink to="/projects" className="button-projects" >See my projects</RouterLink>
       </div>
     </div>
   );

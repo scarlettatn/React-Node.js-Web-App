@@ -4,7 +4,7 @@ import './projects.css';
 import { projects } from '../data';
 
 
-/*In Link, it has to be ${project.id}  and not  ${project} otherwise the URL does not update with each project id */
+/*In Link div, it has to be ${project.id}  and not  ${project} otherwise the URL does not update with each project id */
 function Projects() {
   return (
     <div>{projects.map((project) => (
